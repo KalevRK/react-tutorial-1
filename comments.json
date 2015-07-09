@@ -1,5 +1,18 @@
 [
-  {"author": "Pete Hunt", "text": "This is one comment"},
-  {"author": "Jordan Walke", "text": "This is *another* comment"},
-  {"author": "Kalev Roomann-Kurrik", "text": "No dog can eat me!"}
+    {
+        "author": "Pete Hunt",
+        "text": "This is one comment"
+    },
+    {
+        "author": "Jordan Walke",
+        "text": "This is *another* comment"
+    },
+    {
+        "author": "Kalev Roomann-Kurrik",
+        "text": "No dog can eat me!"
+    },
+    {
+        "author": "Hugh Jackman",
+        "text": "Arrgghhhh!!!!"
+    }
 ]

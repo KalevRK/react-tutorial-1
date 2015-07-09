@@ -67,14 +67,14 @@ var CommentList = React.createClass({displayName: "CommentList",
 var CommentForm = React.createClass({displayName: "CommentForm",
   handleSubmit: function(e) {
     e.preventDefault();
-    var author = React.findDOMNode(this.refs.author).value.trim();
-    var text = React.findDOMNode(this.refs.text).value.trim();
+    var author = React.findDomNode(this.refs.author).value.trim();
+    var text = React.findDomNode(this.refs.text).value.trim();
     if (!text || !author) {
       return;
     }
     this.props.onCommentSubmit({author: author, text: text});
-    React.findDOMNode(this.refs.author).value = '';
-    React.findDOMNode(this.refs.text).value = '';
+    React.findDomNode(this.refs.author).value = '';
+    React.findDomNode(this.refs.text).value = '';
   },
   render: function() {
     return (
